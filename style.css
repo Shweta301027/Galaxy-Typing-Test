@@ -1,0 +1,34 @@
+body{
+    background-image: url("https://img.wallpapic.com/i4265-833-817/medium/galaxy-pink-purple-nebula-wallpaper.jpg");
+    background-color: transparent;
+}
+:root{
+    --white-color: white;
+}
+.container{
+    text-align: center;
+    
+}
+.display-1 {
+        color: var(--white-color);
+        font-family: 'Rubik', sans-serif;
+        font-size: 4.25rem;
+        font-weight: 800;
+ }
+ .btn{
+    padding:1rem 3rem;
+    border-radius: 1.4rem;
+    background-color: none;
+ }
+ .arrow {
+    position: absolute;
+    bottom: 45px;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background-color: rgba(80, 80, 80, 0.5);
+    border-radius: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
