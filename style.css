@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("https://img.wallpapic.com/i4265-833-817/medium/galaxy-pink-purple-nebula-wallpaper.jpg");
+    background-image: url("https://media.wbur.org/wp/2022/07/main_image_star-forming_region_carina_nircam_final-5mb.jpeg");
+    object-fit: cover;
     
 }
 :root{
