@@ -31,6 +31,24 @@
     font-size: 2.5rem;
     padding:0 1rem ;
   }
-  .hidden{
-    display: none;
+  .gameContent{
+    position: relative;
+    /* margin: 0 auto 0 auto; */
+    /* height: 600px; */
+    width: 100%;
+  
+  }
+
+  .word {
+    position: absolute;
+    background-color: white;
+    padding: 0 10;
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+  
+  .word p {
+    position: relative;
+    margin: 0;
   }
