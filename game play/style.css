@@ -9,9 +9,9 @@
     background-image: url("https://t3.ftcdn.net/jpg/00/75/01/20/360_F_75012013_AgwehxPS8JgcZ15TAZZZHC45dZtje4bf.jpg");
     background-size: cover;
     height: 35rem;
-    width: 50rem;
+    width: 55rem;
     position: relative;
-    margin-left: 15rem;
+    margin-left: 11rem;
 
   }
   .footer{
@@ -32,24 +32,10 @@
     padding:0 1rem ;
   }
   .gameContent{
-    position: relative;
+     position: relative; 
     margin: 0 auto 0 auto;
     height: 600px;
     width: 100%;
-  
+/* border: 10px solid aqua; */
   }
-wordDiv{
-  top: -2px;
-  z-index: 1;
-}
-  .word {
-    position: absolute;
-    color: white;
-    font-size: 1.2rem;
-    animation: fall 10s linear infinite;
- }
   
-@keyframes fall {
-  from{top: 0;}
-  to {top: 90%}
-}
