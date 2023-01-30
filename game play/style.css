@@ -8,7 +8,7 @@
   .game_box{
     background-image: url("https://t3.ftcdn.net/jpg/00/75/01/20/360_F_75012013_AgwehxPS8JgcZ15TAZZZHC45dZtje4bf.jpg");
     background-size: cover;
-    height: 35rem;
+    height: 30rem;
     width: 55rem;
     position: relative;
     margin-left: 11rem;
@@ -24,7 +24,7 @@
     border: 1px solid blueviolet;
     border-radius: 0.3rem;
     position: absolute; 
-    top: 520px;
+    top: 480px;
     width: 100%;
     z-index: 2;
   }
@@ -38,4 +38,14 @@
     height: 560px;
 /* border: 10px solid aqua; */
   }
-  
+  .hidden{
+    display: none;
+  }
+  form{
+    text-align: center;
+  }
+#InputWord{
+  margin-top: -3rem;
+  padding-top:1rem;
+  text-align: center;
+}
