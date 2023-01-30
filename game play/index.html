@@ -28,7 +28,17 @@
             <p>word</p>
             <p>For</p>
         </div>
+        <form onsubmit="getWord(); return false">
+            <input
+            type="text"
+            id="InputWord"
+            class="form-control form-control-lg"
+            hidden
+          />
+          <input type="submit" hidden />
+        </form>
 
+        </form>
         <div class="gameOver">Game Over</div>
     </div>
     <script src="script.js"></script>

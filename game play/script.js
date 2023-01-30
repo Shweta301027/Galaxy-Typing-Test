@@ -9,7 +9,7 @@ const inputElementID = document.getElementById('InputWord');
     const letter = [
         'for','us','and','lie','love','hate','fate','fame','school','college','btc','elon','musk','courses','internet','patience','argentina','motivation','tech','info','send','mate', 'reactjs','game', 'brusca','graphic','copper','boca', 'lie', 'case','expand','absence','football','native', 'demon', 'thread', 'award', 'tycoon', 'riquelme','still','empirical','doll','java','ackerman','dinner','register','proof','script', 'wrist','sulphur','selection','slam','grandmother','assertive','eaux','javascript','admiration','recognize','roll','bank', 'reactor','gradient','ribbon','slayer','pleasant','path','draft','polish','art','hook']
 
-    let array = [];
+    let array=[] ;
     let arrWords = [];
     let topVal = 0;
     let score = 0;
@@ -32,8 +32,7 @@ const inputElementID = document.getElementById('InputWord');
         wordElement.style.transition = `top ${randomDuration}ms linear`;
         wordElement.innerText = randomWord;
         gameContent.appendChild(wordElement);
-        // console.log(randomWord);
-
+      
         setTimeout(() => {
           wordElement.style.top = `${gameHeight}px`;
         }, 500);
@@ -42,8 +41,22 @@ const inputElementID = document.getElementById('InputWord');
           wordElement.remove();
         }, randomDuration);
       }, 5000);
+      
+      
+ function getWord(){
+  let inputValue = inputElementID.value.split();
+  inputElementID.value = "";
+  if(randomWord.includes(inputValue)){
+    randomWord.classList.add("hidden")
+    updateScore();
+  }
+ }
 
-
+ //update score
+ function updateScore(){
+  score += 10;
+  scoreElement.innerHTML=`<p>Score${score}</p>`
+ }
  
     // setTimeout(()=>{
     //     for(let i=0; i<letter.length; i++){

@@ -26,16 +26,16 @@
     position: absolute; 
     top: 520px;
     width: 100%;
+    z-index: 2;
   }
   .pause_btn{
     font-size: 2.5rem;
-    padding:0 1rem ;
+    padding:0.2px 0.5rem ;
   }
   .gameContent{
      position: relative; 
     margin: 0 auto 0 auto;
-    height: 600px;
-    width: 100%;
+    height: 560px;
 /* border: 10px solid aqua; */
   }
   
